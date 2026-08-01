@@ -1,7 +1,29 @@
 aid: prototypingio
-name: Prototypingio
-description: Prototypingio is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Prototyping.io
+description: >-
+  Prototyping.io is a Y Combinator (Spring 2026) startup building AI-driven
+  autonomous manufacturing for mechanical parts. The platform converts CAD
+  designs into finished physical parts by automating design-for-manufacturability
+  analysis, manufacturability evaluation, production planning, machine execution,
+  and quality control across CNC machining, sheet metal, 3D printing, injection
+  molding, extrusion, and die casting. Founded by Revanth Bodepudi (CEO) and
+  Prerit Oberai (CTO) in the San Francisco Bay Area, it targets hardware teams in
+  robotics, AI infrastructure, energy, automotive, and defense, aiming to cut
+  hardware iteration cycles from weeks to days with no minimum order quantities
+  and tight tolerances. The company is in early-access/waitlist stage and does
+  not yet publish a public API, developer portal, SDK, or documentation surface.
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://prototyping.io/favicon.png
 url: https://raw.githubusercontent.com/api-evangelist/prototypingio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Manufacturing
+- Hardware
+- CNC Machining
+- 3D Printing
+- Artificial Intelligence
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/prototypingio-domain-security.yml
+- type: Website
+  url: https://prototyping.io/
+- type: PrivacyPolicy
+  url: https://prototyping.io/privacy
+- type: TermsOfService
+  url: https://prototyping.io/terms
+- type: CompanyProfile
+  url: https://www.ycombinator.com/companies/prototypingio
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
